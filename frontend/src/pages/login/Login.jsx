@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
 import Lottie from "lottie-react";
-import loginAnimation from "../../assets/dinitha/login.json";
+import loginAnimation from "../../assets/Dinitha/login.json";
 import AccountSuspendedPopup from '../../components/Suspended'; 
 import axios from 'axios';
 
