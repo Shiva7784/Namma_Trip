@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-hot-toast';
 import Lottie from 'lottie-react'; 
-import calenderAnimation from '../../assets/dinitha/date.json';
-import tripAnimation from '../../assets/dinitha/route.json';
+import calenderAnimation from '../../assets/Dinitha/date.json';
+import tripAnimation from '../../assets/Dinitha/trip.json';
 import axios from 'axios';
 
 const Onboarding = () => {
