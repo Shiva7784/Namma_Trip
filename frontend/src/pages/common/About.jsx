@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import image from "../../assets/aboutus.jpg";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
-import Spinner from "../../components/Spinner/Spinner";
+import Spinner from "../../components/spinner/spinner";
 
 const About = () => {
   const [loading, setLoading] = useState(true);
