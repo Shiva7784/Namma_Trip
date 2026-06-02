@@ -1,0 +1,39 @@
+{
+  "greeting": {
+    "triggers": ["hi", "hello", "hey", "start", "good morning", "good evening"],
+    "reply": "Hello! 👋 Welcome to Namma Trip. How can I help you plan your amazing Karnataka adventure today? 😄\n\nI can help you with:\n🏛️ Destinations\n📋 Your bookings\n🎒 Equipment rental\n📖 Travel blogs\n💬 Support"
+  },
+  "destinations": {
+    "triggers": ["destination", "places", "locations", "where to go", "visit"],
+    "useDatabase": true,
+    "fallbackReply": "✨ Discover Karnataka destinations: http://localhost:5173/destinations"
+  },
+  "equipment": {
+    "triggers": ["equipment", "gear", "rent", "hiking gear", "luggage"],
+    "useDatabase": true,
+    "fallbackReply": "🎒 View our available equipment: http://localhost:5173/userequipment"
+  },
+  "blogs": {
+    "triggers": ["blog", "tips", "advice", "articles", "travel tips"],
+    "useDatabase": true,
+    "fallbackReply": "📖 Check out our travel blog: http://localhost:5173/user-blog"
+  },
+  "bookings": {
+    "triggers": ["my booking", "my trip", "reservation", "booking status"],
+    "useDatabase": true,
+    "requiresAuth": true,
+    "fallbackReply": "Please log in to view your bookings."
+  },
+  "support": {
+    "triggers": ["support", "help", "contact", "ticket", "problem"],
+    "reply": "💬 Need assistance? I'm here to help!\n\n• Support tickets: http://localhost:5173/tickets\n• Travel blog: http://localhost:5173/user-blog\n• Equipment info: http://localhost:5173/userequipment\n• Destinations: http://localhost:5173/destinations\n\nWhat can I help you with?"
+  },
+  "search": {
+    "triggers": ["search", "find", "look for"],
+    "useDatabase": true,
+    "fallbackReply": "I can help you search for destinations, blogs, or equipment. What are you looking for?"
+  },
+  "fallback": {
+    "reply": "I'm here to help with Namma Trip! 🚀\n\nTry asking about:\n• \"Show me destinations in Karnataka\"\n• \"Available equipment\"\n• \"Latest travel blogs\"\n• \"My bookings\"\n• \"Plan a trip\"\n• \"Need support\"\n\nWhat would you like to know?"
+  }
+}

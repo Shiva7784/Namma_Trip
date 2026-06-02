@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.table-cell-wrap {
+    white-space: normal;
+    word-wrap: break-word;
+    max-width: 300px;
+    overflow-wrap: break-word;
+}

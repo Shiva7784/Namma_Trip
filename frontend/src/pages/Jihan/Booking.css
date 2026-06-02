@@ -1,0 +1,14 @@
+/* BookingList.css */
+.search-container {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+  }
+ 
+.search-box {
+    flex: 1;
+  }
+
+.light-blue-column {
+    background-color: #1e65d7; /* Light blue color */
+  }
