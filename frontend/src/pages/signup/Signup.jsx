@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import toast, { Toaster } from 'react-hot-toast'; 
 import Lottie from 'lottie-react'; 
-import registerAnimation from '../../assets/dinitha/register.json';
+import registerAnimation from '../../assets/Dinitha/register.json';
 
 function SignUp() {
   const [formData, setFormData] = useState({
