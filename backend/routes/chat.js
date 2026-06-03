@@ -13,7 +13,7 @@ const Booking = require('../models/Booking');
 const Destination = require('../models/destination');
 const Equipment = require('../models/Equipment');
 const User = require('../models/User');
-const TourPackage = require('../models/TourPackage');
+const TourPackage = require('../models/tourPackage');
 
 // Load canned replies from JSON file
 let replyTable;
