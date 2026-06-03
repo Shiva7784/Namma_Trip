@@ -4,7 +4,7 @@ import Spinner from '../../../components/spinner/spinner';
 import { toast } from 'react-hot-toast';
 import Lottie from "lottie-react";
 import Gift from "../../../assets/Dinitha/gift.json";
-import Wallet from "../../../assets/Dinitha/wallet.json";
+import Wallet from "../../../assets/Dinitha/Wallet.json";
 import User from "../../../assets/Dinitha/user.json";
 
 const Overview = () => {
