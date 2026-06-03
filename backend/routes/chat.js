@@ -10,7 +10,7 @@ const router = express.Router();
 // Import your MongoDB models
 const Blog = require('../models/Blog');
 const Booking = require('../models/Booking');
-const Destination = require('../models/Destination');
+const Destination = require('../models/destination');
 const Equipment = require('../models/Equipment');
 const User = require('../models/User');
 const TourPackage = require('../models/TourPackage');
