@@ -2,7 +2,7 @@
 import { useNavigate } from "react-router-dom";
 import Lottie from "lottie-react";
 import Gift from "../../../assets/Dinitha/gift.json";
-import Wallet from "../../../assets/Dinitha/wallet.json";
+import Wallet from "../../../assets/Dinitha/Wallet.json";
 import axios from "axios";
 import toast from "react-hot-toast";
 import defaultAvatar from "../../../assets/default-avatar.jpg";
