@@ -1,4 +1,4 @@
-import UserBooking from "../../Jihan/Userbooking";
+import UserBooking from "../../Jihan/UserBooking";
 
 const Bookings = () => {
     return (
