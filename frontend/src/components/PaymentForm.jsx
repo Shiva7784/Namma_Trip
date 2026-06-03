@@ -5,7 +5,7 @@ import PaymentGateway from "../PaymentGateWay/PaymentGateWay";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import Lottie from "lottie-react";
-import Payment from "../assets/dinitha/secure-payment.json";
+import Payment from "../assets/Dinitha/secure-payment.json";
 import toast from "react-hot-toast";
 
 const PaymentForm = () => {
