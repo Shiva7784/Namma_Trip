@@ -1,4 +1,4 @@
-# Ceylon Odyssey - Tour Package Management System
+# Namma Trip - Tour Package Management System
 
 ## Installation
 
@@ -10,7 +10,7 @@
 2. **Navigate to the project directory:**
 
    ```bash
-   cd Ceylon-Odyssey
+   cd Namma_Trip
 
 3. **Install root dependencies::**
 
