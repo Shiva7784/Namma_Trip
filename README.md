@@ -5,7 +5,7 @@
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/DinithaFdo/Ceylon-Odyssey.git
+   git clone https://github.com/Shiva7784/Namma_Trip.git
 
 2. **Navigate to the project directory:**
 
